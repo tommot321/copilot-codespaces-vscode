@@ -1,6 +1,18 @@
 <header>
 
-<!--
+<!--venn
+    A[Bezpieczeństwo żywnościowe]
+    B[Dostępność wody]
+    C[Zdrowie publiczne]
+    A:::food -- overlap --> B:::water
+    B -- overlap --> C:::health
+    A -- overlap --> C
+    linkStyle 0 stroke:#000,stroke-width:2px
+    linkStyle 1 stroke:#000,stroke-width:2px
+    linkStyle 2 stroke:#000,stroke-width:2px
+    classDef food fill:#f9f,stroke:#333,stroke-width:4px;
+    classDef water fill:#9cf,stroke:#333,stroke-width:4px;
+    classDef health fill:#acf,stroke:#333,stroke-width:4px;
   <<< Author notes: Course header >>>
   Read <https://skills.github.com/quickstart> for more information about how to build courses using this template.
   Include a 1280×640 image, course name in sentence case, and a concise description in emphasis.
